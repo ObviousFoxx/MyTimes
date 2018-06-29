@@ -1,9 +1,26 @@
 .container {
   display: flex;
+  justify-content: flex-end;
+  width: 100%;
 }
-
 .header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  border: solid 1px black;
+  align-items: center;
+}
+.logo{
+  color: MediumAquamarine;
+  justify-content: flex-start;
+}
+.container .navbar {
+  display: flex;
+  justify-content: flex-end;
+
+}
+.img{
+  padding: 10px;
+  padding-left: 20px;
+  justify-content: flex-start;
 }
