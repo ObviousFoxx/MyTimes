@@ -1,6 +1,5 @@
 .container {
   display: flex;
-  justify-content: flex-end;
   width: 100%;
 }
 .header {
@@ -13,14 +12,18 @@
 .logo{
   color: MediumAquamarine;
   justify-content: flex-start;
+  min-width: 100px;
 }
 .container .navbar {
-  display: flex;
+  display: inline-flex;
   justify-content: flex-end;
-
+  flex-grow: 1;
 }
 .img{
   padding: 10px;
   padding-left: 20px;
   justify-content: flex-start;
+}
+span {
+  padding: 10px;
 }
