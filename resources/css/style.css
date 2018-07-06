@@ -1,23 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*Header*/
 .container {
   display: flex;
-  width: 100%;
-}
-.header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  border: solid 1px black;
+  border: solid 1px lightgreen;
   align-items: center;
+  max-height: 100px;
+  min-width: 100%;
 }
 .logo{
   color: MediumAquamarine;
   justify-content: flex-start;
   min-width: 100px;
 }
-.container .navbar {
+.navbar {
   display: inline-flex;
   justify-content: flex-end;
-  flex-grow: 1;
+  width: 100%;
 }
 .img{
   padding: 10px;
@@ -26,4 +31,49 @@
 }
 span {
   padding: 10px;
+}
+
+/*Body Articles*/
+.left {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: solid 1px red;
+  max-width: 630px;
+  float: left;
+  position: relative;
+}
+.center {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: solid 1px blue;
+  max-width: 300px;
+  position: relative;
+  align-self: center;
+}
+.right {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: solid 1px purple;
+  max-width: 240px;
+  position: relative;
+  justify-content: flex-end;
+}
+img .right{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+}
+h1 {
+  max-height: 150px;
+  margin-bottom: 0px;
+}
+p {
+  margin-top: 0px;
 }
