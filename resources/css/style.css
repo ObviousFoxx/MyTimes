@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 /*Header*/
@@ -35,40 +36,32 @@ span {
 
 /*Body Articles*/
 .left {
-  display: flex;
   position: relative;
+  display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  border: solid 1px red;
   max-width: 630px;
   float: left;
-  position: relative;
 }
 .center {
-  display: flex;
   position: relative;
+  display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  border: solid 1px blue;
   max-width: 300px;
-  position: relative;
-  align-self: center;
 }
 .right {
-  display: flex;
   position: relative;
+  display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   border: solid 1px purple;
   max-width: 240px;
-  position: relative;
-  justify-content: flex-end;
+  align-items: flex-end;
 }
-img .right{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+.articles {
   width: 100%;
+  display: flex;
 }
 h1 {
   max-height: 150px;
