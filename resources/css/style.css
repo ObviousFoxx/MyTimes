@@ -4,6 +4,7 @@ body {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  flex-grow: 2;
 }
 /*Header*/
 .container {
@@ -80,6 +81,7 @@ span {
   color: white;
   height: 300px;
   margin-top: 15px;
+  text-align: center;
 }
 .kid {
   display: flex;
@@ -96,4 +98,19 @@ span {
 .main {
   font-size: 40px;
   justify-content: center;
+}
+.stories {
+  display: flex;
+  flex-direction:column;
+  width: 300px;
+  margin: 10px;
+}
+.mid {
+  align-self: flex-end;
+  position: relative;
+  bottom: 520px;
+}
+.down {
+  position: relative;
+  top: 26px;
 }
